@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback form</title>
+    <style>
+        #main-con{
+            background-color: rgb(238, 214, 186);
+            margin:0px;
+            padding:0px;
+            display:flex;
+            flex-direction: row;
+            
+        }
+        #main{
+            width:50%;
+            height: 600px;
+            margin:50px auto 40px auto;
+            background-color: rgb(198, 157, 102);
+            justify-items: center;
+        }
+        form{
+            width:200px;
+        }
+        input {
+        display: block;
+        margin-bottom: 10px;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        #sub{
+            border-radius: 5px;
+            background-color:rgb(61, 157, 213) ;
+        }
+       
+
+    </style>
+</head>
+<body>
+<div id="main-con">
+    <div id="main">
+        <h2><u>FEEDBACK FORM</u></h2>
+        <div><p>Please fill the details carefully!</p></div>
+        <form>
+            <label>
+                Username:
+            
+            </label><input type="text" placeholder="Enter your name">
+            <label>
+                Phone number:
+           
+            </label> <input type="number" placeholder="Enter the phone number">
+            <label>
+                email id:
+           
+            </label>
+             <input type="email" placeholder="Enter the email id">
+
+            <label>Your feedback here..</label>
+            <textarea id="feedback" name="feedback" rows="8" cols="40" placeholder="Feedback..."></textarea>
+
+            <button type="submit" id="sub">Submit</button>
+            
+</form>
+    </div>
+
+</div>
+
+</body>
+</html>
