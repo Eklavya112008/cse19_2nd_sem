@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>/student result calculator</title>
+    <style>
+        body{
+            background-color: cornsilk;
+        }
+        #main{
+            height:200px;
+            width:500px;
+            background-color: rgb(191, 145, 104);
+            align-self:auto;
+            box-shadow:5px;
+        }
+        h2{
+           background-color: rgba(201, 51, 51, 0.477);
+            text-align:center;
+            height:40px;
+        }
+    </style>
+</head>
+<body>
+    <h2><strong>Marks calculator</strong></h2>
+    <div id="main">
+    
+    
+        <label><strong>Enter the number of subjects:</strong>
+            <input type="number" id="subjects">
+        </label>
+<br><br>
+    <button onclick="calculate_result()">Calculate Result</button>
+    <div id="result"></div>  
+    </div>
+    <script src="exp_4.js"></script>
+</body>
+</html>

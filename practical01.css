@@ -1,0 +1,16 @@
+.heading{
+    background-color:rgb(235, 205, 168);
+    text-align: center;
+}
+body{
+    background-color: antiquewhite;
+}
+#main{
+    
+    background-color: burlywood;
+    width: 300px;   
+    height:500px;  
+    margin: 0 auto;     
+    text-align: center; 
+    border: 1px solid black;
+}
