@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(246, 206, 154);
+}
+#maindiv {
+    height: 500px;
+    width:auto;
+    margin:80px;
+    text-align: center;
+    background-color: antiquewhite;
+    border:2px solid black;
+
+
+}
+.box{
+    margin:10px;
+    width:auto;
+    height:100px;
+    background-color: bisque;
+}
